@@ -1,0 +1,26 @@
+body {
+    background-color: #1d1d1d;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.red-anime {
+    background-color: #ad0b0b;
+}
+
+.yellow-anime {
+    background-color: #bfac02;
+}
+
+.green-anime {
+    background-color: green;
+}
+
+.blue-anime {
+    background-color: rgb(4, 4, 112);
+}
