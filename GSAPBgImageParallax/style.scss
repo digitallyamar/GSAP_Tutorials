@@ -1,0 +1,119 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Red Hat Display', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+
+h1 {
+    font-size: 3.5rem;
+}
+
+
+.main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: grid;
+    grid-template: 'nav logo tools';
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(30, 118, 65, 0.5);
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    &__nav {
+        grid-area: nav;
+        justify-self: start;
+        align-self: center;
+
+        .menu {
+            list-style: none;
+
+            & .menu-item {
+                display: inline-block;
+                text-transform: uppercase;
+                font-size: 1.3rem;
+                padding: 0 15px 0 0;
+            }
+        }
+    }
+
+    &__logo {
+        grid-area: logo;
+        justify-self: center;
+        align-self: center;
+        .logo {
+            max-width: 12vw;
+            max-height: 12vh;
+        }
+    }
+
+    &__tools {
+        grid-area: tools;
+        justify-self: end;
+        align-self: center;
+        .tools-icon {
+            padding-right: 1rem;
+        }
+    }
+
+    &__tools {
+        .tools-icon {
+            padding-right: 4rem;
+        }
+    }
+
+}
+
+
+.block {
+    height: 100vh;
+    width: 100vw;
+}
+
+.blk-1 {
+    position: relative;
+    background-color: rgba(30, 118, 65, 0.5);
+    background-image: url('plant.png');
+    //background-attachment: fixed;
+
+	//background-position: bottom center;
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
+	//position: fixed;
+	z-index: 0;
+    
+
+}
+
+.blk-2 {
+    background-color: magenta;
+}
+
+.blk-3 {
+    background-color: yellow;
+}
+
+.hero-text {
+    top: 30%;
+    width: 100%;
+    position: absolute;
+    font-size: 8rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+}

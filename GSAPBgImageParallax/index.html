@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GSAP Expmt</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="scroll-container">
+            <header class="main-header">
+                <nav class="main-header__nav">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#blk-1">Magenta</a></li>
+                        <li class="menu-item"><a href="#blk-2">Light Green</a></li>
+                        <li class="menu-item"><a href="#blk-3">Yellow</a></li>
+                    </ul>
+                </nav>
+
+                <div class="main-header__logo">
+                    <a href="#">
+                        <img src="logo.png" class="logo" alt="Vriddhi Logo">
+                    </a>
+                </div>
+
+                <div class="main-header__tools">
+                    <a href="#" class="tools-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </a>
+                    <a href="#" class="tools-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    </a>
+                </div>
+
+
+            </header>
+            <main>
+                <div class="block blk-1" id="blk-1">
+                    <h1 class="hero-text">
+                        Sutra Ayurveda<br>
+                        Essence Of Life
+                    </h1>
+                </div>
+                <div class="block blk-2" id="blk-2"></div>
+                <div class="block blk-3" id="blk-3"></div>
+            </main>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg==" crossorigin="anonymous"></script>
+
+        <script src="main.js"></script>
+    </body>
+</html>
